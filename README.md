@@ -42,6 +42,7 @@ Notes:
 
 tidydataset is 180 objects with 81 variables.
 - List of variables are following:
+
  [1] "Subject"                         "Activity"                        "tBodyAcc-mean()-X"              
  [4] "tBodyAcc-mean()-Y"               "tBodyAcc-mean()-Z"               "tBodyAcc-std()-X"               
  [7] "tBodyAcc-std()-Y"                "tBodyAcc-std()-Z"                "tGravityAcc-mean()-X"           
