@@ -33,13 +33,15 @@ This .zip file includes the following files:
 - 'train/Inertial Signals/total_acc_x_train.txt': The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'. Every row shows a 128 element vector. The same description applies for the 'total_acc_x_train.txt' and 'total_acc_z_train.txt' files for the Y and Z axis. 
 - 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
+
 Notes: 
 - Features are normalized and bounded within [-1,1].
 - Each feature vector is a row on the text file.
+
 --------------------------------------
 
 tidydataset is 180 objects with 81 variables.
-List of variables are following:
+- List of variables are following:
  [1] "Subject"                         "Activity"                        "tBodyAcc-mean()-X"              
  [4] "tBodyAcc-mean()-Y"               "tBodyAcc-mean()-Z"               "tBodyAcc-std()-X"               
  [7] "tBodyAcc-std()-Y"                "tBodyAcc-std()-Z"                "tGravityAcc-mean()-X"           
