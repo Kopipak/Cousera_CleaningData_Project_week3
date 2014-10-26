@@ -8,7 +8,8 @@ This code create a tidy data set by following steps.
 4. Extract the measurements on the mean and standard diviation
 5. Name activiy categories with "activity_labels.txt"
 6. Create "tidydataset" by grouping data set by activity and subject, then calculate the average of each of the variables
-===================================
+
+-----------------------------------
 
 The data collected from the accelerometers from the Samsung Galaxy S smartphone. 
 The experimental details are available at the site where the data was obtained: 
@@ -16,7 +17,8 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 The data source for this code is:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
-===================================
+
+------------------------------------
 
 This .zip file includes the following files:
 - 'README.txt'
