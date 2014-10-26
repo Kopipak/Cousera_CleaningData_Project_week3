@@ -1,8 +1,14 @@
 
+## This code is for Getting and Cleaning Data course project.
 
-##############################################################
-
-
+## This code includes several steps
+#1. Import datasets from working directory
+#2. Merge the training and the test sets into one dataset called "dataALL"
+#3. Name variables using "features.txt" data
+#4. Extract the measurements on the mean and standard diviation
+#5. Name activiy categories with "activity_labels.txt"
+#6. Create "tidydataset" by grouping data set by activity and subject, then calculate the average of each of the variables
+##
 
 ## Import data
 xr = read.table("X_train.txt",sep="")
@@ -35,7 +41,7 @@ for (n in 1:6){
   exdata$Activity[exdata$Activity == n] <- actlabelname[n]
 }
 
-## step5: group data set by activity and subject and calculate the average of each of the variables
+## step5: group data set by activity and subject and calculate the average of each of the variables using aggregate()
 newdata <- aggregate(exdata[,1] ~ Subject + Activity, exdata, mean)
 for (i in 2:79){
   d <- aggregate(exdata[,i] ~ Subject + Activity, exdata, mean) 
