@@ -40,7 +40,7 @@ Notes:
 
 --------------------------------------
 
-tidydataset is 180 objects with 81 variables.
+"tidydataset" is 180 objects with 81 variables.
 - List of variables are following:
 
  [1] "Subject"                         "Activity"                        "tBodyAcc-mean()-X"              
