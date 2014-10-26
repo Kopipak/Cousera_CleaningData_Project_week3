@@ -3,11 +3,11 @@ Cousera_CleaningData_Project_week3
 
 This code create a tidy data set by following steps.
 - 1. Import datasets from working directory
-- 2. Merge the training and the test sets into one dataset called "dataALL"
+- 2. Merge the training set, the test set, subject and activity into one dataset called "dataALL"
 - 3. Name variables using "features.txt" data
 - 4. Extract the measurements on the mean and standard diviation
 - 5. Name activiy categories with "activity_labels.txt"
-- 6. Create "tidydataset" by grouping data set by activity and subject, then calculate the average of each of the variables
+- 6. Create "tidydataset" by grouping data set by subject and activity, then calculate the average of each of the variables
 
 -----------------------------------
 
